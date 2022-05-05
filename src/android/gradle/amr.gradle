@@ -43,7 +43,7 @@ android {
     compileSdkVersion 30
     buildToolsVersion "30.0.2"
     defaultConfig {
-        minSdkVersion 19
+        minSdk 22
         multiDexEnabled true
     }
     compileOptions {
