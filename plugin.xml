@@ -101,16 +101,13 @@
         <framework src="AMRAdapterApplovin" type="podspec" spec="~> 11.3" />
         <framework src="AMRAdapterChartboost" type="podspec" spec="~> 8.5" />
         <framework src="AMRAdapterFacebook" type="podspec" spec="~> 6.10" />
+        <framework src="AMRAdapterFyber" type="podspec" spec="~> 8.1" />
         <framework src="AMRAdapterIronsource" type="podspec" spec="~> 7.2" />
+        <framework src="AMRAdapterMintegral" type="podspec" spec="~> 7.0" />
+        <framework src="AMRAdapterTiktok" type="podspec" spec="~> 4.3" />
+        <framework src="AMRAdapterUnity" type="podspec" spec="~> 4.1" />
         <framework src="AMRAdapterVungle" type="podspec" spec="~> 6.10" />
         <framework src="AMRAdapterYandex" type="podspec" spec="~> 4.4" />
-
-
-        <framework src="AMRAdapterMintegral" type="podspec" spec="~> 7.0" />
-        <framework src="AMRAdapterOgury" type="podspec" spec="~> 2.5" />
-        <framework src="AMRAdapterTapjoy" type="podspec" spec="~> 12.9" />
-        <framework src="AMRAdapterUnity" type="podspec" spec="~> 4.1" />
-        <framework src="AMRAdapterYouappi" type="podspec" spec="~> 5.0" />
 
     </platform>
 </plugin>
