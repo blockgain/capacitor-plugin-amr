@@ -1,6 +1,6 @@
 {
   "name": "capacitor-plugin-amr",
-  "version": "1.2.83",
+  "version": "1.2.86",
   "description": "Admost Mediation Router plugin.",
   "cordova": {
     "id": "cordova-plugin-amr",
