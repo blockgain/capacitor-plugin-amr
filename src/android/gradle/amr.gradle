@@ -5,6 +5,7 @@ repositories {
     maven { url 'https://developer.huawei.com/repo/' }
     maven { url 'https://verve.jfrog.io/artifactory/verve-gradle-release' }
     maven { url 'https://jitpack.io' }
+    maven { url 'https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea' }
 }
 
 dependencies{
@@ -17,26 +18,31 @@ dependencies{
    implementation 'com.admost.sdk:amr:2.5.8' 
    implementation 'com.google.android.gms:play-services-base:17.1.0' 
    
-   implementation 'com.admost.sdk:admost:1.0.8.a30' 
-   implementation 'com.admost.sdk:adcolony:4.7.1.a30' 
+   implementation 'com.admost.sdk:admost:1.0.8.a30'
+   implementation 'com.admost.sdk:adcolony:4.7.1.a30'
    implementation 'com.google.android.gms:play-services-ads:20.4.0' 
    implementation 'com.admost.sdk:admob-gt-19.7.0-adapter:1.0.8.a30' 
-   implementation 'com.admost.sdk:applovin:11.3.3.a30' 
-   implementation 'com.admost.sdk:chartboost:8.4.1.a30' 
+   implementation 'com.admost.sdk:applovin:11.3.3.a30'
    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.10' 
    implementation 'com.admost.sdk:facebook:6.8.0.a30' 
    implementation 'androidx.recyclerview:recyclerview:1.0.0' 
-   implementation 'androidx.annotation:annotation:1.2.0' 
-   implementation 'com.admost.sdk:huawei-ads-adapter:3.4.53.300.a30' 
-   implementation 'com.huawei.hms:ads:3.4.53.300' 
+   implementation 'androidx.annotation:annotation:1.2.0'
    implementation 'com.admost.sdk:ironsource:7.2.1.1.a30' 
    implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.4.32'
    implementation 'net.pubnative:hybid.sdk:2.12.1' 
    implementation 'com.admost.sdk:pubnative-adapter:2.12.1.a30' 
-   implementation 'com.admost.sdk:unity:4.1.0.a30' 
-   implementation 'com.vungle:publisher-sdk-android:6.10.5' 
-   implementation 'com.admost.sdk:vungle-adapter:6.10.5.a30' 
+   implementation 'com.admost.sdk:unity:4.1.0.a30'
    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+   implementation 'com.admost.sdk:mintegral-adapter:16.0.31.a30'
+   implementation 'com.mbridge.msdk.oversea:mbbid:16.0.31'
+   implementation 'com.mbridge.msdk.oversea:reward:16.0.31'
+   implementation 'com.mbridge.msdk.oversea:newinterstitial:16.0.31'
+   implementation 'com.mbridge.msdk.oversea:mbsplash:16.0.31'
+   implementation 'com.mbridge.msdk.oversea:mbnative:16.0.31'
+   implementation 'com.mbridge.msdk.oversea:mbnativeadvanced:16.0.31'
+   implementation 'com.mbridge.msdk.oversea:mbbanner:16.0.31'
+   implementation 'com.admost.sdk:tiktok:4.2.5.3.a30'
 
 }
 android {
