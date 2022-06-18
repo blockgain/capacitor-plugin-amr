@@ -103,7 +103,7 @@
         <framework src="AMRAdapterIronsource" type="podspec" spec="~> 7.2" />
         <framework src="AMRAdapterMintegral" type="podspec" spec="~> 7.1" />
         <framework src="AMRAdapterTiktok" type="podspec" spec="~> 4.5" />
-        <framework src="AMRAdapterUnity" type="podspec" spec="~> 4.2" />
+        <framework src="AMRAdapterUnity" type="podspec" spec="~> 3.5" />
         <framework src="AMRAdapterVungle" type="podspec" spec="~> 6.10" />
         <framework src="AMRAdapterInmobi" type="podspec" spec="~> 10.0" />
     </platform>
